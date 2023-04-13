@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  const [count, setCount] = React.useState(90);
+  const [count, setCount] = React.useState(19);
 
 
   const onClickPlus = () => {
