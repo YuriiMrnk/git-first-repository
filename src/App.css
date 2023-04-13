@@ -1,0 +1,63 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: skyblue;
+}
+
+app {
+    display: flex;
+    margin-bottom: 1px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    color: lightcoral;
+    font-size: 13rem;
+    margin: 15;
+    margin-bottom: 90px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0;
+    color: crimson;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+  }
+
+  button {
+    background: transparent;
+    border: 2px solid transparent;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: all 0.05s ease-in-out;
+    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+  }
+  
+  .minus {
+    background-color: #e63946;
+    color: #fff;
+    box-shadow:#e63946;
+    border: 1px solid darken(#e63946, 15%);
+  } 
+
+  .plus {
+    background-color: #2a9d8f;
+    color: #fff;
+    box-shadow: 0 4px 0 darken(#2a9d8f, 10%);
+    border: 1px solid darken(#2a9d8f, 15%);
+  }
+
+  .reset {
+    background-color: slateblue;
+    color: #fff;
+    box-shadow: 0 4px 0 darken(#2a9d8f, 10%);
+    border: 1px solid darken(#2a9d8f, 15%);
+  }  
